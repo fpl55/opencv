@@ -67,11 +67,15 @@ path为模型所在路径
 
 ## 参考文献
 [1] Deng-Ping Fan, Ge-Peng Ji, Ming-Ming Cheng, etc. Concealed Object Detection[J]. IEEE TPAMI, 2021. 
+
 [2] Xie E , Wang W , Wang W , et al. Segmenting Transparent Objects in the Wild with Transformer[C]// International Joint
 Conference on Artificial Intelligence. International Joint Conferences on Artificial Intelligence Organization, 2021. 
+
 [3] Diederik P Kingma and Jimmy Ba. Adam: A method for stochastic optimization. In ICLR, 2015. 
+
 [4] Fan, Heng, Miththanthaya, Halady Akhilesha, Harshit, ect. Transparent Object Tracking
 Benchmark[C]// Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV), 2021. 
+
 [5]https://vision.aliyun.com/experience/detail?tagName=objectdet&children=DetectObject.
 
 ## 项目其他结果图片展示
