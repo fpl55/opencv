@@ -42,11 +42,17 @@ numpy==1.19.2
 将训练/测试数据放在 ./datasets/transparent/Trans10K_v2
  Trans10K_v2
  ├────test
+ 
  │    ├───images
+ 
  │    └───masks_12
+ 
  ├────train
+ 
  │    └───images
+ 
       └───masks_12
+      
  download dataset: 'https://github.com/xieenze/Trans2Seg'
 
 ### 训练透明目标检测模型
