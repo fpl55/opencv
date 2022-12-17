@@ -37,9 +37,9 @@ torchvision==0.8.2
 opencv-python==4.6.0.66
 numpy==1.19.2
 
-##数据准备
-创建‘./datasets/transparent/Trans10K_v2 ‘
-将训练/测试数据放在‘./datasets/transparent/Trans10K_v2‘
+### 数据准备
+创建 ./datasets/transparent/Trans10K_v2 
+将训练/测试数据放在 ./datasets/transparent/Trans10K_v2
  Trans10K_v2
  ├────test
  │    ├───images
@@ -49,8 +49,8 @@ numpy==1.19.2
       └───masks_12
  download dataset: 'https://github.com/xieenze/Trans2Seg'
 
-##训练透明目标检测模型
-我们实验基于2个GeForce GTX 1080 ，训练一小时左右。
+### 训练透明目标检测模型
+基于2个GeForce GTX 1080 ，训练一小时左右。
 运行./Air-lab透明目标检测/Mytrain,得到SINet_40.pth，模型保存于'./Snapshot/air-lab/'（SINet_406.pth）
 
 参考代码'https://github.com/DengPingFan/SINet/'
@@ -60,25 +60,21 @@ state_dict = torch.load("path")
 torch.save(state_dict, "path", _use_new_zipfile_serialization=False
 path为模型所在路径
 
-##调用透明目标检测模型进行透明目标检测
+### 调用透明目标检测模型进行透明目标检测
 将要检测的图片放于./Air-lab透明目标检测/motest/test/images
 运行 ./Air-lab透明目标检测/main.py
-
-##结果
 测试结束后会得到结果在 ./Air-lab透明目标检测/Resulttest 中
 
-##参考文献
-[1]@article{xie2021segmenting, title={Segmenting transparent object in the wild with transformer},
- author={Xie, Enze and Wang, Wenjia and Wang, Wenhai and Sun, Peize and Xu, Hang and Liang, 
-Ding and Luo, Ping}, journal={arXiv preprint arXiv:2101.08461}, year={2021} }
-[2]@inproceedings{fan2020Camouflage,
-title={Camouflaged Object Detection},
-author={Fan, Deng-Ping and Ji, Ge-Peng and Sun, Guolei and Cheng, Ming-Ming and Shen,
- Jianbing and Shao, Ling},booktitle={IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
-year={2020}
-}
+## 参考文献
+[1] Deng-Ping Fan, Ge-Peng Ji, Ming-Ming Cheng, etc. Concealed Object Detection[J]. IEEE TPAMI, 2021. 
+[2] Xie E , Wang W , Wang W , et al. Segmenting Transparent Objects in the Wild with Transformer[C]// International Joint
+Conference on Artificial Intelligence. International Joint Conferences on Artificial Intelligence Organization, 2021. 
+[3] Diederik P Kingma and Jimmy Ba. Adam: A method for stochastic optimization. In ICLR, 2015. 
+[4] Fan, Heng, Miththanthaya, Halady Akhilesha, Harshit, ect. Transparent Object Tracking
+Benchmark[C]// Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV), 2021. 
+[5]https://vision.aliyun.com/experience/detail?tagName=objectdet&children=DetectObject.
 
-##项目结果图片展示
+## 项目其他结果图片展示
 ![72d7314089ad02e28d204da1b0ff04d](https://user-images.githubusercontent.com/120435702/208233610-d843787e-64ae-4e7f-a85e-2c50bfa2a685.jpg)
 ![46dfbe1699856879d3705ec390e71d2](https://user-images.githubusercontent.com/120435702/208233611-56f29db7-8d09-440c-aeda-7f6e936aaf8f.jpg)
 ![e3a4352b63e5e0b439f395630f58fd9](https://user-images.githubusercontent.com/120435702/208233619-cb7e3077-5801-41ff-afd7-9a3f27a64575.jpg)
