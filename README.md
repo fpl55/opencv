@@ -40,18 +40,13 @@ numpy==1.19.2
 ### 数据准备
 创建 ./datasets/transparent/Trans10K_v2 
 将训练/测试数据放在 ./datasets/transparent/Trans10K_v2
- Trans10K_v2
- ├────test
- 
- │    ├───images
- 
- │    └───masks_12
- 
- ├────train
- 
- │    └───images
- 
-      └───masks_12
+ Trans10K_v2  
+ ├────test  
+ │    ├───images  
+ │    └───masks_12  
+ ├────train  
+ │    └───images  
+ │    └───masks_12  
       
  download dataset: 'https://github.com/xieenze/Trans2Seg'
 
