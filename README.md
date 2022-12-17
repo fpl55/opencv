@@ -31,11 +31,11 @@ TEM 的协助下负责定位候选区域。 GRA 模块则会重现动物狩猎�
 
 ## 运行环境
 ### python环境
-torch==1.7.1
-scipy==1.2.2
-torchvision==0.8.2
-opencv-python==4.6.0.66
-numpy==1.19.2
+torch==1.7.1  
+scipy==1.2.2  
+torchvision==0.8.2  
+opencv-python==4.6.0.66  
+numpy==1.19.2  
 
 ### 数据准备
 创建 ./datasets/transparent/Trans10K_v2 
