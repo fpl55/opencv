@@ -48,7 +48,7 @@ numpy==1.19.2
  │    └───images  
  │    └───masks_12  
       
- download dataset: 'https://github.com/xieenze/Trans2Seg'
+ 数据集下载: 'https://github.com/xieenze/Trans2Seg'
 
 ### 训练透明目标检测模型
 基于2个GeForce GTX 1080 ，训练一小时左右。
