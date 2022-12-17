@@ -29,7 +29,8 @@ TEM 的协助下负责定位候选区域。 GRA 模块则会重现动物狩猎�
 ![image](https://user-images.githubusercontent.com/120435702/208242103-4131e639-5eec-4a3f-9f31-8ad0f9b027e2.png)
 
 
-##环境
+## 运行环境
+### python环境
 torch==1.7.1
 scipy==1.2.2
 torchvision==0.8.2
